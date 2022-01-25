@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Red+Hat+Display:ital,wght@0,500;0,700;1,800&display=swap');
+:root{
+    --darkgrayishblue: hsl(217, 19%, 35%);
+    --desaturateddarkblue: hsl(214, 17%, 51%)
+    --Grayish Blue:
+     - Light Grayish Blue: hsl(210, 46%, 95%)
+}
+body{
+    font-size: 13px;
+    font-family: 'Manrope', sans-serif;
+}
+.post{
+    background-color:hsl(210, 46%, 95%);
+
+}
