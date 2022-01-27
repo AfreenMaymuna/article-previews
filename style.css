@@ -1,36 +1,33 @@
 @import url('https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&family=Red+Hat+Display:ital,wght@0,500;0,700;1,800&display=swap');
-*,::after,::before {
+/* *,::after,::before {
     margin: 0;
-    box-sizing: border-box;
+    box-sizing: border-box; */
 }
 :root{
     --darkgrayishblue: hsl(217, 19%, 35%);
     --darkblue: hsl(214, 17%, 51%);
     --grayishblue: hsl(212, 23%, 69%);
-    --lightgrayishblue: hsl(210, 46%, 95%);
+    --lightgrayishblue:hsl(210, 46%, 95%);
 }
 body{
     font-size: 13px;
     font-family: 'Manrope', sans-serif;
-}
-/* img{
-    width: 100%;
-    object-fit: cover;
-} */
-.post{
-    background-color:hsl(210, 46%, 95%);
-    background-position: center -250px;
-    background-size: cover;
+    margin: 0;
     height: 100vh;
-
+}
+.posts{
+    background-color:hsl(212, 23%, 69%);
+    height: 100vh;
 }
 .card{
-    padding: 30px;
+    background-color: white;
+    width: 1140px;
+    margin: auto;
     display: flex;
     align-items: center;
     justify-content: center;
-
 }
+
 .card-warpper{
 
 }
